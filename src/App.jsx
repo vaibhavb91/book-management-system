@@ -1,12 +1,12 @@
 import React from "react";
-import Book from "./components/Book";
+import { Outlet } from "react-router-dom";
 
-const App = () => {
+function App() {
   return (
     <div>
-      <Book />
+      <Outlet />
     </div>
   );
-};
+}
 
 export default App;
